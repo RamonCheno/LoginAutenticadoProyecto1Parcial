@@ -1,6 +1,6 @@
 # login_autenticado_proyecto_parcial1
 
-A new Flutter project.
+Proyecto de 1 parcial, Seguridad de la informacion, Inicio de sesion con autenticación biometrica.
 
 ## Getting Started
 
