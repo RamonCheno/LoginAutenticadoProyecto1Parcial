@@ -69,7 +69,7 @@ class _LoginFormState extends State<LoginForm> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const GetLoginSignupHeader('Login'),
+              const GetLoginSignupHeader('Inicio de sesión'),
               const SizedBox(height: 10.0),
               GetTextFormField(
                   controller: _conUserName,
@@ -88,7 +88,7 @@ class _LoginFormState extends State<LoginForm> {
                 margin: const EdgeInsets.fromLTRB(30.0, 20.0, 30.0, 0),
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  color: Colors.blue,
+                  color: Color(0xffff9800),
                   borderRadius: BorderRadius.circular(20.0),
                 ),
                 child: TextButton(

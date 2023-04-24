@@ -14,9 +14,19 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Login Autenticado',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+     theme: ThemeData(
+          useMaterial3: true,
+          appBarTheme: const AppBarTheme(
+              backgroundColor: Color(0xff4CAF50),
+              centerTitle: true,
+              elevation: 0,
+              titleTextStyle: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20),
+              iconTheme: IconThemeData(color: Colors.white),
+              actionsIconTheme: IconThemeData(color: Colors.white),
+              toolbarHeight: 64)),
     
       home: const LoginForm(),
     );
